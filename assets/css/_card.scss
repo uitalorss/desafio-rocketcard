@@ -32,7 +32,10 @@
       }
     }
     ul{
-      z-index: 2;
+      background: linear-gradient(180deg, #00000060, #46454560, #3E383860);
+      width: 32vh;
+      padding: 1rem;
+      border-radius: 1.5rem;
       li{
         list-style: none;
         img{
