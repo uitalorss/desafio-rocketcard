@@ -1,0 +1,29 @@
+//variáveis
+$background: #0E1218;
+
+@import 'card';
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background: $background;
+  color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+
+  @media (max-width: 1080px){
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px){
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 540px){
+    font-size: 75%;
+  }
+
+  .main{
+    width: 80vh;
+    margin: 0 auto;
+  }
+}

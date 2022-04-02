@@ -1,0 +1,47 @@
+.card-round{
+  width: 50vh;
+  height: 60vh;
+  background: #000000;
+  border-radius: .8rem;
+  position: absolute;
+  .card{
+    background: $background;
+    width: 40vh;
+    height: 50vh;
+
+    position: relative;
+    margin: 1.75rem auto;
+    padding: 1rem;
+
+    border-radius: .8rem;
+   
+    header{
+      display: flex;
+      gap: 0 1rem;
+      img{
+        display: block;
+        padding: 1rem 1.2rem;
+        border: 1px solid #ffffff;
+        border-radius: 4rem;
+      }
+    }
+    ul{
+      li{
+        list-style: none;
+        img{
+          margin-right: 1rem;
+        }
+      }
+    }
+    footer{
+      display: flex;
+      gap: 0 1rem;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      h3{
+        text-transform: uppercase;
+      }
+    }
+  }
+}
