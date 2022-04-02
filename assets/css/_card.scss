@@ -1,6 +1,6 @@
 .card-round{
   width: 60vh;
-  height: 80vh;
+  height: 90vh;
   background: #000000;
   border-radius: .8rem;
   display: grid;
@@ -23,12 +23,16 @@
       }
     }
     .avatar{
+      display: flex;
+      justify-content: end;
+      z-index: 1;
       img{
-        width: 50%;
-        border-radius: 5rem;
+        width: 70%;
+        border-radius: 7rem;
       }
     }
     ul{
+      z-index: 2;
       li{
         list-style: none;
         img{
