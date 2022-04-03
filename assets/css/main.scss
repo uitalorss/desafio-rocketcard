@@ -30,7 +30,14 @@ body{
       margin: 0 auto;
     }
     .action{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      position: relative;
+      top: 40%;
       button{
+        display: block;
         cursor: pointer;
         padding: 1rem 2rem;
         color: #ffffff;
