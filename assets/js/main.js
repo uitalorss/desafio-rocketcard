@@ -19,3 +19,16 @@ axios.get(url)
 
   })
   .catch(error => console.error(error))
+
+  const btnChangeColor = document.querySelector("#changeColor")
+  btnChangeColor.addEventListener("click", handleChangeColor)
+
+  function handleChangeColor(){
+    let symbols = '0123456789ABCDEF';
+    let hex = '#';
+    for (let i = 0; i < 6; i++){
+      hex += symbols[Math.floor(Math.random() * 16)]
+    }
+    const cardRound = document.querySelector(".card-round")
+    cardRound.style.background = `${hex}`
+  }
