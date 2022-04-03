@@ -22,8 +22,22 @@ body{
     font-size: 75%;
   }
 
-  .main{
-    width: 80vh;
-    margin: 0 auto;
+  .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .main{
+      width: 80vh;
+      margin: 0 auto;
+    }
+    .action{
+      button{
+        cursor: pointer;
+        padding: 1rem 2rem;
+        color: #ffffff;
+        background: #000000;
+        border: 1px solid #1a1a1a;
+        border-radius: .75rem;
+      }
+    }
   }
 }
